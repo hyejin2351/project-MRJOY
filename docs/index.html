@@ -1,36 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <title>MRJOY</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <!-- font awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+      crossorigin="anonymous"
+    />
     <!-- style css -->
-    <link rel="stylesheet" href="./src/scss/style.css">
-    <link rel="stylesheet" href="../node_modules/normalize.css/normalize.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./src/scss/style.css" />
+    <link rel="stylesheet" href="../node_modules/normalize.css/normalize.css" />
+  </head>
+  <body>
     <header>
-        <h1><img src="./src/static/images/mrjoyLogo.png" alt="MRJOY"></h1>
+      <div class="header_inner">
+        <h1><img src="./src/static/images/mrjoyLogo.png" alt="MRJOY" /></h1>
         <nav>
-            <ul>
-                <li><a href="#">콘텐츠 스토어</a></li>
-                <li><a href="#">고객지원</a></li>
-            </ul>
+          <ul>
+            <li><a href="#">콘텐츠 스토어</a></li>
+            <li><a href="#">고객지원</a></li>
+          </ul>
         </nav>
         <ul class="top_menu">
-            <li><i class="fas fa-globe-americas"></i><a href="#">한국어<i class="fas fa-sort-down"></i></a></li>
-            <li><a href="#">로그인</a></li>
-            <li><a href="#">회원가입</a></li>
+          <li>
+            <i class="fas fa-globe-americas"></i><a href="#">한국어<i class="fas fa-sort-down"></i></a>
+          </li>
+          <li><a href="#">로그인</a></li>
+          <li><a href="#">회원가입</a></li>
         </ul>
+      </div>
     </header>
     <!-- header end -->
 
     <section class="index_visual">
-        <div class="visual">
-
+      <div class="visual_wrap">
+          <div class="visual">
+              <div class="visual_text">
+                  <dl>
+                      <dt><span>혼합현실 피트니스</span>MRJOY</dt>
+                      <dd>혼합현실 피트니스 기기 MR JOY와 함께 <br />
+                          색다른 즐거움도 누리고 건강도 챙기세요.</dd>
+                  </dl>
+                  <a href="#">Read More</a>
+              </div>
+              <div class="visual_mrjoy">
+                  <img src="./src/static/images/visual_mrjoy.png" alt="MRJOY 기기">
+              </div>
+          </div>
         </div>
     </section>
     <!-- index_visual end -->
@@ -43,5 +64,5 @@
 
     <footer></footer>
     <!-- footer end -->
-</body>
+  </body>
 </html>

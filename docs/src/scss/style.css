@@ -5,96 +5,121 @@ header {
           box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.1);
 }
 
-header h1 {
+header .header_inner {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+header .header_inner h1 {
+  padding-left: 20px;
   overflow: hidden;
   float: left;
-  width: 165px;
   height: 100%;
   color: #ffffff;
   text-align: center;
   margin: 0;
 }
 
-header h1 img {
+header .header_inner h1 img {
   margin-top: 15px;
   width: 85px;
 }
 
-header nav {
+header .header_inner nav {
   float: left;
   overflow: hidden;
 }
 
-header nav ul {
+header .header_inner nav ul {
   overflow: hidden;
   list-style: none;
 }
 
-header nav ul li {
+header .header_inner nav ul li {
   float: left;
   padding-right: 50px;
 }
 
-header nav ul li a {
+header .header_inner nav ul li a {
   text-decoration: none;
   font-size: 13px;
   color: #333333;
   font-weight: bold;
 }
 
-header .top_menu {
+header .header_inner .top_menu {
   float: right;
   overflow: hidden;
-  margin-right: 30px;
+  padding-right: 20px;
 }
 
-header .top_menu li {
+header .header_inner .top_menu li {
   float: left;
   list-style: none;
 }
 
-header .top_menu li::before {
+header .header_inner .top_menu li::before {
   content: "|";
   padding-right: 6px;
   color: #cccccc;
 }
 
-header .top_menu li:first-child::before {
+header .header_inner .top_menu li:first-child::before {
   content: none;
 }
 
-header .top_menu li .fa-globe-americas {
+header .header_inner .top_menu li .fa-globe-americas {
   margin-right: 6px;
   color: #333333;
   font-size: 13px;
 }
 
-header .top_menu li a {
+header .header_inner .top_menu li a {
   text-decoration: none;
   font-size: 12px;
   padding-right: 6px;
   color: #333333;
 }
 
-header .top_menu li a .fa-sort-down {
+header .header_inner .top_menu li a .fa-sort-down {
   vertical-align: top;
   padding: 2px 0px 0px 3px;
 }
 
 .index_visual {
   width: 100%;
-  height: 620px;
-}
-
-.index_visual .visual {
-  width: 1440px;
+  height: 770px;
   background: url(../static/images/visual.jpg) no-repeat;
+  background-position: 50%;
   background-size: cover;
 }
 
-.index_service {
+.index_visual .visual_wrap {
   width: 100%;
-  height: 550px;
+  height: 100%;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.index_visual .visual_wrap .visual {
+  width: 1440px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.index_visual .visual_wrap .visual .visual_text dl {
+  color: #ffffff;
+}
+
+.index_visual .visual_wrap .visual .visual_text a {
+  color: #ffffff;
+}
+
+.index_visual .visual_wrap .visual .visual_mrjoy img {
+  width: 700px;
+}
+
+.index_service {
   background: #750000;
 }
 
