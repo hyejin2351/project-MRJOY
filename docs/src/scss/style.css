@@ -1,4 +1,49 @@
 header {
-  background-color: pink;
+  background-color: #ffffff;
+}
+
+header h1 {
+  background-color: #910007;
+  width: 165px;
+  height: 60px;
+  color: #ffffff;
+  text-align: center;
+}
+
+header nav {
+  background: #ffffff;
+  width: 50%;
+}
+
+header nav ul {
+  overflow: hidden;
+}
+
+header nav ul li {
+  float: left;
+}
+
+header ul {
+  overflow: hidden;
+}
+
+header ul li {
+  float: left;
+}
+
+.index_visual {
+  background: orange;
+}
+
+.index_service {
+  background: skyblue;
+}
+
+.index_program {
+  background: mediumspringgreen;
+}
+
+footer {
+  background: blanchedalmond;
 }
 /*# sourceMappingURL=style.css.map */

@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/hyejin2351/project-MRJOY/issues"
   },
-  "homepage": "https://github.com/hyejin2351/project-MRJOY#readme"
+  "homepage": "https://github.com/hyejin2351/project-MRJOY#readme",
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
 }
