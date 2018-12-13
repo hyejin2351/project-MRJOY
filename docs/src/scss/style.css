@@ -8,7 +8,6 @@ header {
 header h1 {
   overflow: hidden;
   float: left;
-  background-color: #910007;
   width: 165px;
   height: 100%;
   color: #ffffff;
@@ -17,7 +16,7 @@ header h1 {
 }
 
 header h1 img {
-  margin-top: 12px;
+  margin-top: 15px;
   width: 85px;
 }
 
@@ -40,6 +39,7 @@ header nav ul li a {
   text-decoration: none;
   font-size: 13px;
   color: #333333;
+  font-weight: bold;
 }
 
 header .top_menu {
@@ -56,6 +56,7 @@ header .top_menu li {
 header .top_menu li::before {
   content: "|";
   padding-right: 6px;
+  color: #cccccc;
 }
 
 header .top_menu li:first-child::before {
@@ -81,11 +82,20 @@ header .top_menu li a .fa-sort-down {
 }
 
 .index_visual {
-  background: orange;
+  width: 100%;
+  height: 620px;
+}
+
+.index_visual .visual {
+  width: 1440px;
+  background: url(../static/images/visual.jpg) no-repeat;
+  background-size: cover;
 }
 
 .index_service {
-  background: skyblue;
+  width: 100%;
+  height: 550px;
+  background: #750000;
 }
 
 .index_program {
