@@ -62,7 +62,7 @@ header .top_menu li:first-child::before {
   content: none;
 }
 
-header .top_menu li .fas {
+header .top_menu li .fa-globe-americas {
   margin-right: 6px;
   color: #333333;
   font-size: 13px;
@@ -73,6 +73,11 @@ header .top_menu li a {
   font-size: 12px;
   padding-right: 6px;
   color: #333333;
+}
+
+header .top_menu li a .fa-sort-down {
+  vertical-align: top;
+  padding: 2px 0px 0px 3px;
 }
 
 .index_visual {
