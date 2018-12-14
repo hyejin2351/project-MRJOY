@@ -102,29 +102,140 @@ header .header_inner .top_menu li a .fa-sort-down {
 }
 
 .index_visual .visual_wrap .visual {
-  width: 1440px;
+  max-width: 1440px;
   height: 100%;
   margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.index_visual .visual_wrap .visual .visual_text {
+  position: absolute;
+  top: 270px;
+  left: 150px;
 }
 
 .index_visual .visual_wrap .visual .visual_text dl {
+  margin: 0;
   color: #ffffff;
+}
+
+.index_visual .visual_wrap .visual .visual_text dl dt {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.index_visual .visual_wrap .visual .visual_text dl dt span {
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.index_visual .visual_wrap .visual .visual_text dl dd {
+  margin: 30px 0;
+  font-size: 15px;
+  line-height: 1.5em;
 }
 
 .index_visual .visual_wrap .visual .visual_text a {
   color: #ffffff;
+  border: 1px solid #ffffff;
+  display: block;
+  width: 100px;
+  text-align: center;
+  padding: 12px 5px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 15px;
 }
 
-.index_visual .visual_wrap .visual .visual_mrjoy img {
+.index_visual .visual_wrap .visual .visual_img {
+  position: absolute;
+  right: 50px;
+}
+
+.index_visual .visual_wrap .visual .visual_img img {
   width: 700px;
 }
 
 .index_service {
+  width: 100%;
+  height: 100%;
+  padding: 30px 0;
   background: #750000;
+  color: #ffffff;
 }
 
-.index_program {
-  background: mediumspringgreen;
+.index_service .service_wrap {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.index_service .service_wrap .section_title {
+  padding: 30px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.index_service .service_wrap .section_title h2 {
+  margin: 0;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.index_service .service_wrap .service {
+  overflow: hidden;
+  text-align: center;
+  padding: 0;
+}
+
+.index_service .service_wrap .service li {
+  width: 25%;
+  list-style: none;
+  float: left;
+}
+
+.index_service .service_wrap .service li dl dt {
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.index_service .service_wrap .service li dl dt span {
+  margin-bottom: 30px;
+  display: block;
+}
+
+.index_service .service_wrap .service li dl dt span i {
+  font-size: 50px;
+}
+
+.index_service .service_wrap .service li dl dd {
+  margin: 0;
+  line-height: 1.5em;
+}
+
+.index_service .service_wrap .service li a {
+  margin: 0 auto;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  display: block;
+  width: 100px;
+  text-align: center;
+  padding: 12px 5px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.index_program .section_title {
+  padding: 50px;
+  color: #000000;
+  text-align: center;
+}
+
+.index_program .section_title h2 {
+  margin: 0;
+  font-size: 30px;
+  font-weight: normal;
 }
 
 footer {
